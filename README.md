@@ -20,11 +20,17 @@
 # Структура проекта
 Дерево структуры проекта: 
 ```
-D:
-├───bin
-├───cmd
-│   └───server
-└───internal
-    ├───api
-    └───storage
+pz4-todo/
+├── internal/
+│   └── task/
+│       ├── handler.go
+│       ├── model.go
+│       └── repo.go
+├── pkg/
+│   └── middleware/
+│       ├── cors.go
+│       └── logger.go
+├── go.mod
+├── go.sum
+└── main.go
 ```
